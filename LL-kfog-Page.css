@@ -1,0 +1,400 @@
+/* Panels Styles */
+.panels.panelsFeed {
+    width:100% !important;    
+    max-width:1021px !important;
+    margin:0 auto !important;
+    margin-bottom:0px !important;
+    border-radius:.25rem !important;
+    padding: 0px !important;
+    overflow: visible;
+}
+.panels {
+    overflow: visible;
+    width:100% !important;
+    max-width:654px !important;
+    margin:0 auto !important;
+    margin-bottom:0px !important;
+    border-radius:.25rem !important;
+}
+.panels.block-type-content .type-post {
+    position:relative !important;
+    display:block !important;
+    margin-bottom:25px !important;
+    background-color:#FFF !important;
+    border-radius:.25rem !important;
+    border:1px solid transparent !important;
+    min-height:282px !important;
+    padding-top:0px !important;
+    -webkit-box-shadow: 5px 4px 10px 0px rgba(115,115,115,0.20);
+    -moz-box-shadow: 5px 4px 10px 0px rgba(115,115,115,0.20);
+    box-shadow: 5px 4px 10px 0px rgba(115,115,115,0.20);
+}
+.panels.block-type-content .type-post:hover,
+.panels.block-type-amp_event_content .type-amp_event:hover {
+    border-bottom:1px #FF6138 solid;
+}
+.panels .entry-row .hentry {
+    clear:none !important;
+}
+.panels .block-type-content header {
+    padding:1.25rem !important;
+}
+.panels .entry-title {
+    font-size:15px !important;
+    font-weight:300 !important;
+    color:#333 !important;
+    line-height:1.1rem !important;
+    padding-top:10px !important;
+    margin-bottom:-0.8rem !important;
+    padding:10px 10px 0px 10px !important
+}
+.panels .block-type-content a.post-thumbnail-above-title {
+    margin:0px !important;
+}
+.panels a.post-thumbnail img {
+    max-width: 313px !important;
+    width: 100% !important;
+    height: 179px !important;
+    border-top-left-radius:.25rem !important;
+    border-top-right-radius:.25rem !important;
+    border-color:transparent !important;
+}
+.panels.block-type-amp_event_content .type-amp_event a.post-thumbnail img {
+    width: 100% !important;
+    height: 115px !important;
+    border-top-left-radius:.25rem !important;
+    border-top-right-radius:.25rem !important;
+    border-color:transparent !important;
+}
+
+
+
+/*=========== Levi's Lounge Start ============*/
+body.levis .wrapper-content, body.levis .wrapper-content .grid-container, body.levis .wrapper-content .column-1, body.levis .wrapper-content .column-1 > div, article.levis .entry-content, article.levis {
+	border: 0 !important;
+	margin: 0 !important;
+	max-width: 100% !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+/* Background Files
+http://www.kfog.com/wp-content/uploads/sites/184/2016/04/Dual_Gender_501.jpg 
+http://www.kfog.com/wp-content/uploads/sites/184/2016/07/levis-skin1.jpg,
+http://www.kfog.com/wp-content/uploads/sites/184/2016/07/levis-skin2.jpg,
+http://www.kfog.com/wp-content/uploads/sites/184/2016/07/Levis_takeover.jpg,
+http://www.kfog.com/wp-content/uploads/sites/184/2016/07/Levis_takeover1.jpg,
+http://www.kfog.com/wp-content/uploads/sites/184/2016/08/levis-revisedskins.jpg
+*/
+body.levis {
+    background-image: url(http://www.kfog.com/wp-content/uploads/sites/184/2016/08/levis-revisedskins1.jpg) !important;
+    background-color: #000000 !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: 50% -10% !important;
+}
+body.levis .wrapper-content {
+    background: #fff; 
+    width: auto !important; 
+    max-width: 1021px !important;
+    margin:0 auto !important;
+    padding-top: 70px !important;
+    margin-bottom: 0px !important;
+}
+body.levis .wrapper-content .grid-container {
+ /*background-color:#C41230;*/
+   background-color:#000000;
+}
+body.levis div.wrapper-mirroring-10 {
+    height:50px !important;
+}
+
+/* Levi's Contest Block */
+body.levis #block-bhf571a922cb409f {
+    text-align: left !important;
+    margin-top: 0px !important;
+    width: 100% !important;
+    max-width:690px !important;
+    margin-bottom: 0px !important;
+}
+body.levis #block-bhf571a922cb409f .type-post:first-of-type {
+    border:none !important;
+    box-shadow:none !important;
+    text-align: left !important;
+    padding:0px !important;
+    margin: 35px 0px 25px 30px !important;
+    max-width: 654px !important;
+    width: 100% !important;
+    overflow: visible !important; 
+}
+body.levis #block-bhf571a922cb409f a.post-thumbnail img {
+    width: 100% !important;
+    max-width: 690px !important;
+    border-radius: 0px !important;
+}
+body.levis #block-bhf571a922cb409f div.entry-content:first-of-type {
+    display:none !important;
+}
+body.levis #block-bhf571a922cb409f div.entry-content:first-of-type p {
+    line-height:130% !important;    
+    font-size:14px !important;
+    font-weight:100 !important;
+}
+body.levis #block-bhf571a922cb409f header {
+        padding: 0 !important;
+}
+body.levis #block-bhf571a922cb409f .type-post .hentry {
+    padding:0 !important; 
+}
+
+/* Levi's Blurb Block */
+body.levis .levisBlurb {
+    display: inline-block !important;
+    position: absolute !important;
+    width: 100% !important;
+    right: 25px !important;
+    top: 105px !important;
+    max-width: 320px !important;
+    text-align: left !important;
+    padding-left: 37px !important;    
+}
+body.levis .levisBlurb img {
+    text-align: center !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 165px !important;
+    margin-bottom: 30px !important;  
+}
+body.levis .levisBlurb p {
+    font-size: .9em !important;
+    font-weight: 100 !important;
+    line-height: 1.2em !important;
+    padding: 8px 0px !important;
+    color: #333333 !important;
+}
+
+/* Levi's Posts - Block Facebook Comments (targeting all posts right now, need to find solution just for levis) */
+.single-post #block-bn855b6d5ea79d15 {
+    display:none;
+}
+
+/* Levi's Card Block */
+body.levis #block-bs356f300999731c {
+    width:100% !important;
+    background-color:#FFF !important;
+    margin:0 auto !important;
+    margin-bottom:14px !important;
+    border-radius:.25rem !important;
+    margin-top: 0px !important;
+    padding: 0px 30px !important;
+}
+body.levis .block-type-content .type-post {
+    position:relative !important;
+    display:block !important;
+    margin-bottom:1rem !important;
+    background-color:#FFF !important;
+    border-radius:.25rem !important;
+    padding-top:0px !important;
+    border:1px solid #E5E5E5 !important;
+    min-height:265px !important;
+    -webkit-box-shadow: 3px 2px 10px 1px rgba(115,115,115,0.20);
+    -moz-box-shadow: 3px 2px 10px 1px rgba(115,115,115,0.20);
+    box-shadow: 3px 2px 10px 1px rgba(115,115,115,0.20);
+}
+body.levis .entry-row .hentry {
+    clear:none !important;
+}
+body.levis .block-type-content header {
+    padding:1.25rem !important;
+}
+body.levis #block-bs356f300999731c .entry-title {
+    font-size: .9em !important;
+    font-family: arial, sans-serif !important;
+    font-weight: normal !important;
+    color: #333 !important;
+    line-height: 1.1rem !important;
+    padding-top: 10px !important;
+    margin-bottom: -1.5rem !important;
+}
+body.levis .block-type-content a.post-thumbnail-above-title {
+    margin:0px !important;
+}
+body.levis .block-type-content a.post-thumbnail img {
+    border-top-left-radius:.25rem !important;
+    border-top-right-radius:.25rem !important;
+    border-color:transparent !important;
+}
+
+/*== Content Category ===*/
+body.levis .category-levisinterview a.post-thumbnail img {
+    border-bottom:8px solid #152030 !important; /*burnt orange color*/
+}
+body.levis #block-bs356f300999731c .category-levisinterview header::before {
+    content:"INTERVIEW" !important;
+    color:#152030 !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-levisperformance a.post-thumbnail img {
+    border-bottom:8px solid #bf122b !important; /*blue color*/
+}
+body.levis #block-bs356f300999731c .category-levisperformance header::before {
+    content:"PERFORMANCE" !important;
+    color:#bf122b !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+body.levis .category-levisphotos a.post-thumbnail img {
+    border-bottom:8px solid #b16c13 !important; /*teal color*/
+}
+body.levis #block-bs356f300999731c .category-levisphotos header::before {
+    content:"PHOTOS" !important;
+    color:#b16c13 !important;
+    font-weight:bold !important;
+    font-size:.75rem !important;
+}
+@media screen and (max-width: 1035px) {
+  body.levis #block-bhf571a922cb409f a.post-thumbnail img {
+      width: 93% !important;  
+  }
+}
+@media screen and (max-width: 997px) {
+    body.levis #block-bhf571a922cb409f {
+      width:100% !important;
+      max-width:1000px !important;
+      clear: left !important;
+      float: left !important;
+      display: block !important;
+  }
+  body.levis #block-bhf571a922cb409f .type-post:first-of-type {
+       width:100% !important; 
+       max-width: 1000px !important;
+       margin: 20px auto !important;
+       text-align: center !important;
+  } 
+  body.levis .block-type-content .entry-row .hentry:first-child {
+      margin-left:25px !important;
+  } 
+  body.levis .block-type-content .type-post {
+      width:45% !important;
+      margin-left:25px !important;
+  }
+  
+  body.levis .levisBlurb {
+    max-width:600px !important;
+    width: 200% !important;
+    clear: both !important;
+    display: block !important;
+    position: relative !important;
+    top:0 !important;
+    margin: 0px 0px 0px 37px !important;
+  }
+  /* Panels*/
+  body.levis #block-bs356f300999731c {
+      margin-top:30px !important;
+      width:100% !important;
+      margin-left:0 !important;
+      margin-right:15px !important;
+  }
+@media screen and (max-width: 630px) {
+  /*body.levis #block-bhf571a922cb409f {
+      width:100% !important;
+      clear: left !important;
+      float: left !important;
+      display: block !important;
+  }    
+  body.levis .block-type-content .entry-row .hentry:first-child {
+    margin-left:0 !important;
+  }
+  body.levis .block-type-content .type-post {
+    width:100% !important;
+    margin-left:0 !important;
+  }  
+  body.levis #block-bs356f300999731c {
+    width:100% !important;
+    margin-left:0 !important;
+  }
+  body.levis .levisBlurb {
+    max-width:600px !important;
+    width: 210% !important;
+    clear: both !important;
+    display: block !important;
+    position: relative !important;
+    top:0 !important;
+    right:0 !important;
+    padding:0 20px !important;
+    margin:0 auto !important;
+    text-align:left !important;
+  }
+  body.levis #block-bhf571a922cb409f .type-post:first-of-type {
+    width: 100% !important;
+  }*/
+}
+@media screen and (max-width: 600px) {
+   body.levis .levisBlurb {
+     padding-left: 0px !important;  
+   }
+   body.levis #block-bs356f300999731c .block-type-content .entry-row .hentry:first-child {
+     margin-left: 0px !important;
+    }
+   body.levis #block-bs356f300999731c .block-type-content .type-post {
+    width: 47% !important;
+    margin-left:0px !important;    
+    margin-right: 5px !important;
+    }
+    body.levis #block-bs356f300999731c {
+    width: 100% !important;
+    margin-left: 15px !important;
+    padding: 0px 35px !important;
+    }
+    body.levis .levisBlurb {
+    max-width: 600px !important;
+    width: 100% !important;
+    clear: both !important;
+    display: block !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0px auto !important;
+    right: 0px !important;
+    text-align: center !important;
+    }
+    body.levis .levisBlurb div {
+    max-width: 400px !important;
+    width: 100% !important;
+    clear: both !important;
+    display: block !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0px 20px !important;
+    right: 0px !important;
+    text-align: left !important;    
+    }
+}
+@media screen and (max-width: 375px) {
+    
+  body.levis.responsive-grid-active .block-type-content a.post-thumbnail img {
+    max-width:100% !important;    
+  }
+  body.levis .levisBlurb {
+    top: -90px !important;
+  }
+  body.levis .levisBlurb div {
+    width: 90% !important;
+    padding: 0px 10px !important;
+    margin:0 !important;
+    right:0px !important;
+  }
+  body.levis .block-type-content .type-post {
+    width: 100% !important;
+    margin-left:0px !important;
+  }
+  body.levis .block-type-content .entry-row .hentry:first-child {
+     margin-left: 0px !important;
+  }
+  body.levis #block-bs356f300999731c {
+    margin-left: 0px !important;
+    margin-top: -30px !important;
+  }
+}
+/*=========== Levi's Lounge End ============*/
